@@ -1,0 +1,21 @@
+{
+  "name": "reduxstore",
+  "version": "1.0.0",
+  "description": "This is an application that mimics the features of an online store. This application displays products and allows the user to add them to their cart. In the cart, the user can adjust the quantity of each item and the running total will be displayed at the bottom. Lastly the user can choose the currency for the entire application.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "redux": "^5.0.1",
+    "react-dom": "^19.0.0",
+    "react-redux": "^7.2.6"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
